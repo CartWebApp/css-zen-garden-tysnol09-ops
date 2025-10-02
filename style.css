@@ -1,1 +1,28 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
+.intro{
+    font-style: oblique;
+    align-self: center;
+}
+*{
+    background-color: lightblue;
+    font-family: monospace;
+    text-align: center;
+    cursor: crosshair;
+}
+p{
+    font-weight: 900;
+    color: blueviolet;
+}
+#zen-intro {
+    text-decoration: overline underline;
+}
+div p{
+    text-align: start;
+    font-style: oblique;
+}
+header, a{
+    color: crimson;
+}
+a:visited{
+    color: lawngreen;
+}
