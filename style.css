@@ -21,8 +21,64 @@ div p{
     font-style: oblique;
 }
 header, a{
-    color: crimson;
+    color: rgb(232, 25, 25);
 }
 a:visited{
-    color: lawngreen;
+    color: chartreuse;
+    text-decoration: line-through;
+}
+div.explanation{
+    color: forestgreen;
+}
+a:hover{
+    font-size: x-large;
+    transform: rotate(90deg);
+}
+a:link{
+    text-decoration: none;
+}
+p::first-letter{
+    font-size: 150%;
+}
+h3::first-line{
+    font-size: 125%;
+}
+a:active{
+    background-color: yellow;
+}
+P::after{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.525);
+    content: " So Cool.";
+}
+header::before{
+    font-size: larger;
+    content: "Important stuff, please read";
+}
+p:empty{
+    position: relative;
+}
+p:first-of-type{
+    font-family: 'Times New Roman', Times, serif;
+}
+p:last-of-type{
+    font-weight: lighter;
+}
+div > p{
+    transform: rotate(359deg);
+}
+[class]{
+    cursor: progress;
+}
+[role=contentinfo]{
+    transform: rotate(356deg);
+}
+[class~=benefits]{
+    transform: scale(.95);
+}
+[id|="css"]{
+    background-color: rgb(29, 93, 149);
+}
+a[href^="http"]{
+    color: #ff00e1;
 }
