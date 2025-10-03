@@ -1,23 +1,27 @@
 /* Empty file for template. Remember to edit only this file and not the HTML file */
 .intro{
     font-style: oblique;
-    align-self: center;
 }
 *{
     background-color: lightblue;
     font-family: monospace;
-    text-align: center;
     cursor: crosshair;
+    display: grid;
 }
-p{
+div{
     font-weight: 900;
     color: blueviolet;
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 10px;
+    margin: 5%;
+
 }
 #zen-intro {
     text-decoration: overline underline;
 }
 div p{
-    text-align: start;
     font-style: oblique;
 }
 header, a{
@@ -31,11 +35,10 @@ div.explanation{
     color: forestgreen;
 }
 a:hover{
-    font-size: x-large;
-    transform: rotate(90deg);
+    font-size: xx-large;
 }
 a:link{
-    text-decoration: none;
+    text-decoration: wavy;
 }
 p::first-letter{
     font-size: 150%;
@@ -65,20 +68,75 @@ p:last-of-type{
     font-weight: lighter;
 }
 div > p{
-    transform: rotate(359deg);
+    transform: rotate(360deg);
 }
 [class]{
     cursor: progress;
 }
 [role=contentinfo]{
-    transform: rotate(356deg);
+    transform: rotate(360deg);
 }
 [class~=benefits]{
-    transform: scale(.95);
+    transform: scale(.999);
 }
 [id|="css"]{
-    background-color: rgb(29, 93, 149);
+    background-color: rgb(36, 122, 198);
 }
 a[href^="http"]{
     color: #ff00e1;
+}
+a[class$="name"]{
+    color: rgb(255, 136, 0);
+}
+footer + a{
+    font-size: larger;
+}
+p ~ ul{
+    size: 100.001%;
+}
+.main.supporting{
+    font-size: large;
+}
+.participation .zen-participation{
+    font: optional;
+}
+div[class*="support"]{
+    cursor: crosshair;
+}
+p:first-child{
+    color: #0000ff;
+}
+a:focus{
+    transform: rotate(180deg);
+}
+p:last-child{
+    color: #fbff00;
+}
+:not(body){
+    transform: rotate(360deg);
+}
+p:nth-child(3){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:nth-last-child(1){
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p:nth-last-of-type(2){
+    font-family: 'Courier New', Courier, monospace;
+}
+h3:nth-of-type(1){
+    color: chocolate;
+}
+a:only-of-type{
+    transform: rotate(360deg);
+}
+a:only-child{
+    transform: rotate(360deg);
+}
+:root{
+    background-color: #fbff00;
+}
+::selection{
+    color: white;
+    background-color: black;
 }
